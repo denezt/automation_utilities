@@ -1,17 +1,17 @@
-# Superuser Utilities
+# Automation Utilities
 
-A collection of command-line utilities designed to automate tasks as a super user.
+A collection of command-line utilities designed to automate tasks for Automation Engineers.
 
 ## Description
 
-A set of powerful command-line tools that can be used to perform system-level operations, manage services, and handle privileged 
-tasks without needing direct access to the shell. These utilities are essential for system administrators, DevOps engineers, and anyone who needs to 
-automate complex system interactions.
+A set of powerful command-line tools that can be used to perform system-level operations, manage services, and monitoring. These utilities are essential for automation engineers who 
+need to automate complex system interactions.
 
 ## Requirements
 
 * JQ
 * Python 3.10 or higher
+* Docker
 
 ## Installation
 
@@ -33,7 +33,7 @@ If you'd like to contribute to this project, please follow these steps:
 
 ## License
 
-This project is licensed under the Unlicensed - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
@@ -53,11 +53,6 @@ If you need help, please don't hesitate to ask!
 
 ## FAQ
 
-### What does "superuser" mean?
-
-In Unix-like systems and Linux distributions, a "super user" is an account with administrative privileges that allows users to perform tasks that require 
-elevated permissions.
-
 ### Why should I use these utilities instead of directly interacting with the system shell?
 
 Using command-line tools like these provides several benefits:
@@ -68,14 +63,11 @@ Using command-line tools like these provides several benefits:
 
 ### What are these utilities capable of?
 
-These utilities cover a wide range of system operations:
-- Service management
-- System configuration
-- Security tooling
-- Resource management
-- Intelligent Logging
+These utilities cover a wide range of tasks commonly encountered by automation engineers:
 
-### How do I report a bug?
-
-* Please open an issue on the GitHub repository with a clear description of the problem and your environment information. Include screenshots if necessary.
-
+* Service Management
+* System Configuration
+* Security Tooling
+* Resource Monitoring
+* Intelligent Logging and Analytics
+* Workflow Automation
